@@ -1,0 +1,360 @@
+body {
+
+    color: white;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    background-image: url(main.jpg);
+    width: auto;
+    height: auto;
+    background-size: cover;
+    background-repeat: repeat-y;
+    background-position: center;
+    background-attachment: fixed;
+    object-fit: cover;
+}
+
+ul {
+    list-style: none;
+}
+
+.navbar {
+    padding: 3px 5px;
+    margin: 12px 10px;
+    font-size: 22px;
+    font-weight: 600;
+    justify-content: center;
+    display: flex;
+}
+
+.navbar li {
+    padding: 2px 30px;
+    margin: 5px 5px;
+}
+
+.navbar li a {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+li a:hover {
+    color: black;
+}
+
+.myname {
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    text-align: center;
+    margin-top: 170px;
+    text-shadow: 2px 2px black;
+}
+
+#hello {
+    font-weight: 500;
+    margin-bottom: -25px;
+    margin-right: 377px;
+    color: yellow;
+    text-shadow: 2px 2px black;
+}
+
+.skill {
+    color: yellow;
+    font-size: small;
+    text-align: center;
+    margin-top: -22px;
+    margin-bottom: 400px;
+}
+
+.button1 {
+    justify-content: center;
+    display: flex;
+    margin-top: -370px;
+    margin-bottom: 330px;
+}
+
+.btn {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    padding: 10px 15px;
+    border-radius: 40px;
+    cursor: pointer;
+    border: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(186, 144, 255);
+}
+
+.btn:hover {
+    color: rgb(0, 0, 0);
+    background-color: yellow;
+}
+
+.scrollable {
+    width: 100%;
+    height: 110vh;
+    background-image: url('back1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+
+
+
+.about h2 {
+    position: absolute;
+    top: 107%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 251, 0);
+    text-align: center;
+    font-size: 40px;
+    font-weight: 300;
+    font: bold;
+}
+
+.text-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#abt {
+    font-family: "Maven Pro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    position: absolute;
+    top: 127%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#abt1 {
+    font-family: "Maven Pro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    position: absolute;
+    top: 145%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.skills {
+    position: absolute;
+    top: 178%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.button2 {
+    position: absolute;
+    top: 203%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.work h2 {
+    position: absolute;
+    top: 225%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(229, 255, 0);
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    font: bold;
+    text-shadow: 2px 2px black;
+}
+
+.container {
+    display: flex;
+    position: absolute;
+    top: 268%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 15px;
+    font-weight: 100;
+    font: bold;
+}
+
+.box {
+
+    padding: 2px 1px;
+    /* border: 1px solid black; */
+    border-radius: 23px;
+    margin: 80px 63px;
+    box-shadow: 12px 12px black;
+    background-color: rgb(145, 94, 202);
+}
+
+#box1 {
+    padding: 30px 38px;
+    margin: 40px 40px;
+}
+
+#box2 {
+    padding: 30px 68px;
+    margin: 40px 40px;
+}
+
+#box3 {
+    padding: 30px 60px;
+    margin: 40px 40px;
+}
+
+.box a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.box:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(107, 48, 173);
+}
+
+a:hover {
+    color: black;
+}
+
+footer {
+    font-family: "Maven Pro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    display: flex;
+    position: absolute;
+    top: 330%;
+    width: 99%;
+    background-color: rgb(118, 66, 179);
+    color: #080808;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border: none;
+}
+
+form {
+    max-width: 300px;
+    text-align: center;
+    margin: 0px 126px;
+}
+
+label {
+    display: block;
+    margin-bottom: 2px;
+    color: #0d0d0d;
+    text-align: center;
+}
+
+input {
+    border-radius: 6px;
+    cursor: text;
+    margin-bottom: 10px;
+    border: none;
+    text-align: center;
+}
+
+input:hover {
+
+    border: none;
+}
+
+
+textarea {
+    height: 50%;
+    width: 100%;
+    padding: 10px;
+    margin: 6px 0px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+textarea {
+    border: none;
+    resize: vertical;
+}
+
+textarea:hover {
+    border: none;
+}
+
+button {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 20px;
+    margin-bottom: 20%;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    color: #000000;
+    background-color: yellow;
+}
+
+
+.footer-content {
+    color: #fff;
+    font-weight: bold;
+    font-size: 122%;
+    text-align: center;
+}
+
+.footer-content h2 {
+    margin-top: 10%;
+    text-align: center;
+    color: white;
+    font-weight: normal;
+}
+
+#footup {
+    color: yellow;
+    font-size: 200%;
+    margin-top: 10%;
+    margin-bottom: 0%;
+    text-shadow: 3px 2px black;
+}
+@media (min-width: 768px) {
+    display: block;
+}
